@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.text {
+    border: 0.2em solid black;
+    padding: 1em;
+    font-size: 1em;
+    
+}
+
+
+.image {
+    height: 40%;
+    border-radius: 2%;
+    margin: auto;
+    margin-left: 5em;
+
+}

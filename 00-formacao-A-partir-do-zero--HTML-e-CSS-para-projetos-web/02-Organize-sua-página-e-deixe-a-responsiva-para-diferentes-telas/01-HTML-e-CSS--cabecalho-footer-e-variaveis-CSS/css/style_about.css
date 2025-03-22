@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
+
+body {
+    font-family: 
+        -apple-system,            /* macOS e iOS (San Francisco) */
+        BlinkMacSystemFont,       /* Chrome/Edge no macOS (backup) */
+        'Segoe UI',               /* Windows */
+        Roboto,                   /* Android */
+        Oxygen,                   /* Linux (KDE) */
+        Ubuntu,                   /* Linux (GNOME) */
+        Cantarell,                /* Linux (GTK) */
+        sans-serif;               /* Fallback genérico */
+    font-size: 16px;               
+    color: (--cor-terciaria);
+    font-weight: 400;
+}
+
+.conteudo__principal {
+    font-family: "Inter", sans-serif;
+    
+}
+    .cv {
+    background-color: #F1F7FD;
+    margin: 5%;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: justify;
+    width: 80%;
+    font-size: 1.1em;
+}
+
+.nome {
+    font-size: 2em;
+    color: var(--cor-primaria)
+}
+
+.email {
+    font-size: 1.3em;
+}
+
+.formacao__titulo__cursos {
+    display: flex;
+    list-style: none;
+    gap: 2%;
+}
+
+.formacao__titulo__faculdade {
+    border-left: 2px solid var(--cor-terciaria);
+    padding-left: 1%;
+}
+
+.formacao__titulo__4linux {
+    border-left: 2px solid var(--cor-terciaria);
+    padding-left: 1%;
+}
+
+.cursos__eventos__participei__individual {
+    list-style: none;
+}
+
+.conhecimentos__titulo__lista__especifica {
+    list-style: none;
+}
+

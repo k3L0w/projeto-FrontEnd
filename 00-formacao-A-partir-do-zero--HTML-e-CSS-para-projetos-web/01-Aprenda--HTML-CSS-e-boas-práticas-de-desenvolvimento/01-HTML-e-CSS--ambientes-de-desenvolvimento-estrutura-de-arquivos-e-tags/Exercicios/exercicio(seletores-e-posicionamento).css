@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 20px;
+    color: cadetblue;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.home {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 7px;
+}
+
+.sobre {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 7px;
+}
+
+.contato {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(24, 48, 3);
+    color: white;
+}
+
+.formacao {
+    color: cyan;
+    text-decoration: none;
+    margin: 10px;
+    padding: 7px;
+    background-color: black;
+}
+
+.titulo-destaque {
+    color: #AAAAAA;
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(30, 70, 3);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.titulo-blog {
+    color: #AAAAAA;
+    text-align: center;
+    margin: 20px;
+}
+
+.urgente {
+    color: red;
+}
+
+.nao-urgente {
+    color: green;
+}
+
+.defasada {
+    color: rgb(43, 43, 0);
+}

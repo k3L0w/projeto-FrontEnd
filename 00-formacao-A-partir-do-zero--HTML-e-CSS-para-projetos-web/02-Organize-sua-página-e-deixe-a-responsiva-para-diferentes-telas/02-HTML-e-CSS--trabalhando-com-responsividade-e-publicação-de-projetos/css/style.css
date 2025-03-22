@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Rationale&display=swap');
+
+/*
+fonts
+
+Rationale: CSS class
+.rationale-regular {
+  font-family: "Rationale", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+Genos: CSS class for a variable style
+.genos-<uniquifier> {
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-primaria: "Rationale", sans-serif;
+    --font-secundaria: "Genos", sans-serif;
+}
+
+main {
+    padding: 3em;
+}
+header {
+    width: 100%;
+    background-color: rgb(58, 38, 7);
+    padding: 1rem;
+    font-family: var(--font-primaria);
+}
+
+strong {
+    color: rgb(180, 138, 75);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: antiquewhite;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    padding: 5px;
+    background-color: rgb(107, 76, 29);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+
+.titulo {
+    font-family: var(--font-primaria);
+    text-align: justify;
+    font-size: 2.5rem;
+}
+
+.texto {
+    font-family: var(--font-secundaria);
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+hr {
+    margin: 0.62rem 0;
+    height: 0.125rem;
+    background-color: rgb(58, 38, 7);
+}
+
+.titulo-redes {
+    text-align: center;
+    font-family: var(--font-primaria);
+    font-size: 1.5rem;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 0.62rem;
+}
+
+button {
+    background-color: rgb(184, 112, 18);
+    color: azure;
+    padding: 0.62rem;
+    border-radius: 3.12rem;
+    margin-top: 0.62rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(58, 38, 7);
+
+}
+
+.conteudo-geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    border: 0.125rem solid rgb(58, 38, 7);;
+    border-radius: 1.06rem;
+    padding: 1.25rem;
+    gap: 1rem;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+}
+
+.imagem {
+    width: 35%;
+    border-radius: 1.06rem;
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(58, 38, 7);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-copy {
+    color: white;
+    font-family: var(--font-secundaria);
+    font-size: 1rem;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-social a {
+    color: white;
+    font-family: var(--font-secundaria);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+@media (max-width: 687px) {
+    .conteudo-geral {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .imagem {
+        width: 47%;
+        border-radius: 1.06rem;
+    }
+}
+
+@media (max-width: 630px) {
+    nav {
+        gap: 1rem;
+    }
+    
+    nav a {
+        color: antiquewhite;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        
+        background-color: rgb(107, 76, 29);
+        border-radius: 1rem;
+    }
+    
+    .conteudo-principal {
+        border: 0.1rem solid rgb(58, 38, 7);;
+        border-radius: 1.06rem;
+        padding: 1rem;
+        gap: 1rem;
+        width: auto;
+    }
+    
+    .redes-sociais {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.62rem;
+    }
+
+    .titulo {
+        font-family: var(--font-primaria);
+        text-align: center;
+        font-size: 1.0rem;
+    }
+    
+    .texto {
+        font-family: var(--font-secundaria);
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    .titulo-redes {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .footer-copy {
+        font-size: 0.8rem;
+    }
+}

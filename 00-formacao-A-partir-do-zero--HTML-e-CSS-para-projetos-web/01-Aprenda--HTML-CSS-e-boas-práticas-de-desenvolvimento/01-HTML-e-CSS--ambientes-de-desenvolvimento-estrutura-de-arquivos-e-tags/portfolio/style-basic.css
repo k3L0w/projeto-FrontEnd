@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/*referencia de paleta de cores: https://colorhunt.co/palette/222831393e4600adb5eeeeee*/
+
+/* Cores
+#222831 | rgb(34, 40, 49)
+#393E46 | rgb(57, 62, 70)
+#00ADB5 | rgb(0, 173, 181)
+#EEEEEE | rgb(238, 238, 238)
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+    color: white;
+}
+
+header {
+    background-color: #000B0D;
+    color: #EEEEEE;
+    padding: 10px;
+    text-align: center;
+}
+
+header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: g#000B0D;
+    color: white;
+}
+
+footer {
+    background-color: #393E46;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    background-color: #00ADB5;
+    border-radius: 7px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}

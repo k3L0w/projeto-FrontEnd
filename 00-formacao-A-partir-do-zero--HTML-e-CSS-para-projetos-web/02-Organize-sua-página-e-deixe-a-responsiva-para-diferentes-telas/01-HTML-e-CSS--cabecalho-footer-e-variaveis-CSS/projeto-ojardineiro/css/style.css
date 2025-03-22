@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+-------------------------------------------------------------------------------
+fonts:
+-------------------------------------------------------------------------------
+01.Pacifico – Tem um toque manuscrito e natural, dando um ar artesanal.
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+-------------------------------------------------------------------------------
+02.Poppins – Moderna, mas com bordas arredondadas que transmitem suavidade.
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+-------------------------------------------------------------------------------
+03.Lora – Uma serif elegante com um toque natural e clássico.
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+-------------------------------------------------------------------------------
+04.Merriweather – Boa para textos, pois é fácil de ler e tem um estilo natural.
+.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+-------------------------------------------------------------------------------
+05.Dancing Script – Uma opção fluida e dinâmica, parecendo escrita à mão.
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+*/
+
+:root {
+    --bg-color: #f1f8f4; /* Verde bem claro, quase branco, para o fundo */
+    --text-color: #2c5f2d; /* Verde escuro, elegante e legível */
+    --nav-bg: #4a7c59; /* Verde médio para a navegação */
+    --nav-text: #ffffff; /* Branco para contrastar no menu */
+    --link-color: #1b4332; /* Verde escuro para links */
+    --link-hover: #81b29a; /* Verde suave no hover dos links */
+    --header-bg: #4a7c59; /* Mesmo tom da navegação, para harmonia */
+    --main-bg: #ffffff; /* Branco puro para destaque do conteúdo */
+    --footer-bg: #2c5f2d; /* Verde bem escuro, para um rodapé forte */
+    --button-bg: #81b29a; /* Verde natural e suave para botões */
+    --button-text: #ffffff; /* Texto branco nos botões */
+}
+  
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aplicação no site */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'lora', serif; /* lora, elegante e natural */
+}
+
+nav {
+    background-color: var(--nav-bg);
+    color: var(--nav-text);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.list-link {
+    list-style: none;
+}
+
+nav a:hover {
+    color: var(--link-hover);
+    border-top: 1px solid var(--link-hover);
+}
+
+header {
+    background-color: var(--header-bg);
+    color: var(--nav-text)
+}
+
+main {
+    background-color: var(--main-bg);
+
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--nav-text)
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--link-hover);
+}
+
+h1 {
+    text-align: center;
+    padding: 0.5em;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 10px;
+}
+
+.footer-copy {
+    font-size: 14px;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-social {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.footer-social a {
+    margin-top: 20px;
+    color: #ffffff;
+    opacity: 0.9;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 20px;
+    
+}
+
+.footer-social a:hover {
+    color: var(--link-hover);
+     border-bottom: 1px solid var(--link-hover);
+}
+
+
+
+

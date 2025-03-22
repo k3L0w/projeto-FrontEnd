@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*
+---------
+[=fonts=]
+---------
+Inter: CSS class for a variable style
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Roboto: CSS class for a variable style
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*/
+
+:root {
+    /* 🎨 Paleta de Cores Inspirada no Design Apple */
+    --color-background-dark: #1D1D1F;  /* Cinza Espacial - fundo escuro */
+    --color-background-light: #F5F5F7; /* Prata - fundo claro */
+    --color-text-dark: #1D1D1F;        /* Texto escuro */
+    --color-text-light: #FFFFFF;       /* Texto claro */
+    --color-primary: #2997FF;          /* Azul Suave - destaque */
+    --color-success: #30D158;          /* Verde Pastel - sucesso */
+    --color-warning: #FFD700;          /* Dourado Suave - alerta/premium */
+    --color-border: #D2D2D7;           /* Cinza neutro - bordas sutis */
+  
+    /* 🔤 Tipografia */
+    --font-primary: "SF Pro", "Inter", "Helvetica Neue", Arial, sans-serif;
+    --font-secondary: "Avenir Next", "Roboto", sans-serif;
+  
+    /* 📏 Espaçamentos e Bordas */
+    --border-radius: 12px;  /* Cantos arredondados padrão */
+    --padding-sm: 8px;
+    --padding-md: 16px;
+    --padding-lg: 24px;
+  
+    /* 🌙 Modos de Tema */
+    --background-light-mode: var(--color-background-light);
+    --background-dark-mode: var(--color-background-dark);
+    --text-light-mode: var(--color-text-dark);
+    --text-dark-mode: var(--color-text-light);
+  }
+  
+
+/* reset css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/projeto-FrontEnd/00-formacao-A-partir-do-zero--HTML-e-CSS-para-projetos-web/02-Organize-sua-página-e-deixe-a-responsiva-para-diferentes-telas/01-HTML-e-CSS--cabecalho-footer-e-variaveis-CSS/projeto-favoritos/assets/Wallpaper001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    color: var(--text-light-mode);
+    font-family: var(--font-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+  }
+
+.dark-mode {
+    background-color: var(--background-dark-mode);
+    color: var(--text-dark-mode);
+
+}
+
+button {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    padding: var(--padding-md) var(--padding-lg);
+    border-radius: var(--border-radius);
+    font-family: var(--font-primary);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #007aff;
+}
+
+
+header {
+    background-color: var(--header-bg-color);
+    padding: 4em;
+
+}
+
+h1, h2, h3 {
+    color: var(--body-color);
+    font-family: var(--font-titulos)
+
+}
+
+p {
+    color: var(--body-color);
+    font-family: var(--font-texto);
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0.1em;
+}
+
+main {
+    margin: 4em;
+}
+
+.footer-copy {
+    text-align: center;
+}
+
+.footer-social {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+
+
