@@ -1,2 +1,1 @@
-> Projeto de estudo Front-End - Alura
-
+# :computer: Desenvolvimento Front-End - Alura
