@@ -10,3 +10,21 @@ Este repositório contém meus estudos e projetos desenvolvidos durante a forma�
 
 ## 	:open_file_folder: Estrutura do Repositório
 
+projeto-FrontEnd/00-formacao-A-partir-do-zero--HTML-e-CSS-para-projetos-web
+
+## :pushpin: Projeto e Aprendizado
+
+### :round_pushpin: Projeto-01-HTML-CSS-e-boas-práticas-de-desenvolvimento
+### :round_pushpin: Projeto-02-Responsiva-para-diferentes-telas
+### :round_pushpin: Projeto-03-Layouts-modernos-para-web
+### :round_pushpin: Projeto-04-Layouts-modernos-do-Figma-em-páginas-web-reais
+
+:paperclip:  [Acesse o projeto] (https://github.com/k3L0w/projeto-FrontEnd)
+
+## :books: Referências
+- [Documentação MDN Web Docs](https://developer.mozilla.org/pt-BR/)  
+- [Curso Front-End Alura](https://www.alura.com.br/)  
+
+## :mailbox_with_mail: Contato
+Github:[github/k3L0w](https://github.com/k3L0w/projeto-FrontEnd)
+LIndedin:[linkedin/antonio-pereira-profissional] https://www.linkedin.com/in/antonio-pereira-professional/
