@@ -26,5 +26,5 @@ projeto-FrontEnd/00-formacao-A-partir-do-zero--HTML-e-CSS-para-projetos-web
 - [Curso Front-End Alura](https://www.alura.com.br/)  
 
 ## :mailbox_with_mail: Contato
-Github:[github/k3L0w](https://github.com/k3L0w/projeto-FrontEnd)
-LIndedin:[linkedin/antonio-pereira-profissional] https://www.linkedin.com/in/antonio-pereira-professional/
+Github: [github/k3L0w](https://github.com/k3L0w/projeto-FrontEnd)
+LIndedin: [linkedin/antonio-pereira-profissional] (https://www.linkedin.com/in/antonio-pereira-professional/)
