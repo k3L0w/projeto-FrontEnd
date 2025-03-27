@@ -1,0 +1,39 @@
+.cabecalho__menu-hanburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; /* permite ajuste de largura e altura */
+    margin-right: 1.5em;
+}
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* libera outras opções de posicionamento */
+    top: 100%;
+}
+
+.container {
+    display: flex;
+    padding: 0.4em;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 0.4em;
+}
+
+.lista-menu {
+    display: none;  /* retira o lista-menu e não ocupa espaço. */
+    position: absolute;
+    top: 100%; /* `tirou` 100% do cabeçalho e ficou pra baixo */
+ 
+}
+
+.container__botao:checked~.lista-menu { /* combinador CSS acento ~ */
+    display: block;
+}

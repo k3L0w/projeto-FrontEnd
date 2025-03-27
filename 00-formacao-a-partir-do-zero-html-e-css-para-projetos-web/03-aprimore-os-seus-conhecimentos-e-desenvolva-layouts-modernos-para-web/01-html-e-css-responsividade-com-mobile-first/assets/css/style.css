@@ -1,7 +1,10 @@
+@import url(../css/header.css); /* importa o header.css */
+
 :root {
-    --cor-de-funto: #EBECEE;
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 
 body {
-    background-color: var(--cor-de-funto);  /* var -> javascript function */
+    background-color: var(--cor-de-fundo);  /* var -> javascript function */
 }
