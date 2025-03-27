@@ -1,0 +1,11 @@
+:root {
+    --cor-de-funto: #EBECEE;
+}
+
+body {
+    background-color: var(--cor-de-funto);  /* var -> javascript function */
+}
+
+h1 {
+    background-color: rgb(153, 23, 23);
+}
