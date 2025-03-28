@@ -1,5 +1,6 @@
-@import url("../css/header.css"); /* importa o header.css */
-@import url("../css/banner.css");
+@import url("../css/header.css");   /* importa o header.css */
+@import url("../css/banner.css");   /* importa o banner.css */
+@import url("../css/carrossel.css");    /* importa o carrossel.css */
 
 
 :root {
