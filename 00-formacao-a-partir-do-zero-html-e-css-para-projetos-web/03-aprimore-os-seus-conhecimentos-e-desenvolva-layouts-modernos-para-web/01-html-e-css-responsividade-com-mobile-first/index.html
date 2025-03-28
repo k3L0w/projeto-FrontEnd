@@ -57,16 +57,31 @@
         <!-- Slider main container -->
         <div class="swiper">
         <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
             <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/acessibilidade.svg" alt=""></div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-        ...
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/acessibilidade.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/angular.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/apacheKafka.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/arquitetura.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/compras.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/construct2.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/gestao1.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/gestao2.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/guia-Front-end.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/javascript.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/liderança.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/mean.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/metricasAgeis.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/nodejs.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/portugol.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/reactNative.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/tuning.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/uX.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            ...
         </div>
-        <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -79,5 +94,16 @@
 
     <!-- implementação do swiperjs -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // speed: 400, // velocidade dos slides, nesse caso, não será implementado.
+            spaceBetween: 10, // espaços entre os slides.
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
