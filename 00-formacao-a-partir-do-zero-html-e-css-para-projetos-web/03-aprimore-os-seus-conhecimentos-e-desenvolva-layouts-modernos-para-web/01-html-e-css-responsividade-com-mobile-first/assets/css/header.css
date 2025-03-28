@@ -1,17 +1,19 @@
 .cabecalho__menu-hanburguer {
     width: 24px;
     height: 24px;
-    background-image: url(../images/menu.svg);
+    background-image: url("../images/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block; /* permite ajuste de largura e altura */
 }
 
 .cabecalho {
-    background-color: var(--branco);
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
     position: relative; /* libera outras opções de posicionamento */
     top: 100%;
 }
@@ -22,8 +24,11 @@
 }
 
 .container__imagem {
-    padding: 0.1em;
-    
+    /* padding: 1.0em*/
+}
+
+.logo__alurabook {
+    margin-left: 0.9em;
 }
 
 .lista-menu {
