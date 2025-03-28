@@ -52,6 +52,8 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <!-- carrossel: ULTIMOS LANÇAMENTOS -->
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
@@ -117,7 +119,75 @@
 
             </div>
         </div>
+    </section>
+    
+    <!-- carrossel: MAIS VENDIDOS -->
+         <!-- carrossel: ULTIMOS LANÇAMENTOS -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/acessibilidade.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/angular.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/apacheKafka.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/arquitetura.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/construct2.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/gestao1.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/gestao2.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/guia-Front-end.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/javascript.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/liderança.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/mean.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/metricasAgeis.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/nodejs.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/portugol.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/reactNative.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/tuning.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            <div class="swiper-slide"><img src="../01-html-e-css-responsividade-com-mobile-first/assets/images/uX.svg" alt="Livro sobre acessibilidade da Alura Books"></div>
+            ...
+        </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+        
+            <!-- If we need scrollbar -->
+            <!-- Nesse caso, sem scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            <!-- ------------------------- -->
+        </div>
 
+        <div class="card">
+            <!-- 1ª linha -->
+            <div class="card__descricao">
+                <!-- 1ª coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebass</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+
+                <!-- 2ª coluna -->
+                <img src=".//assets/images/angular-logo.svg" class="descricao__imagem" alt="Capa do livro Angular 11 e Firebass">
+            </div>
+
+            <!-- 2ª linha -->
+            <div class="card__botoes">
+                <!-- 1ª coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="assets/images/favoritos.svg" alt="favoritar livro"></li>
+                    <li class="botoes__item"><img src="assets/images/compras.svg" alt="carrinho de compras"></li>
+                </ul>
+                <!-- 2ª coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+
+            </div>
+        </div>
     </section>
 
     <!-- implementação do swiperjs -->
@@ -133,5 +203,10 @@
             },
         });
     </script>
+
+     
+
+
+
 </body>
 </html>
