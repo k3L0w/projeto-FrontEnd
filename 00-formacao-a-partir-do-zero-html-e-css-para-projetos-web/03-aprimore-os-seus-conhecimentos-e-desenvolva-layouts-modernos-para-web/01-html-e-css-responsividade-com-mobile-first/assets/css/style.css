@@ -1,7 +1,8 @@
 @import url("../css/header.css");   /* importa o header.css */
 @import url("../css/banner.css");   /* importa o banner.css */
-@import url("../css/carrossel.css");    /* importa o carrossel.css */
+@import url("../css/carrossel.css");/* importa o carrossel.css */
 @import url("../css/topicos.css");  /* importa o topicos.css */
+@import url("../css/contato.css");  /* importa o contato.css */
 
 :root {
     --cor-de-fundo: #EBECEE;
