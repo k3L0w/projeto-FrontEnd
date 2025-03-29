@@ -3,6 +3,7 @@
 @import url("../css/carrossel.css");/* importa o carrossel.css */
 @import url("../css/topicos.css");  /* importa o topicos.css */
 @import url("../css/contato.css");  /* importa o contato.css */
+@import url("../css/rodape.css");   /* importa o rodape.css */
 
 :root {
     --cor-de-fundo: #EBECEE;
