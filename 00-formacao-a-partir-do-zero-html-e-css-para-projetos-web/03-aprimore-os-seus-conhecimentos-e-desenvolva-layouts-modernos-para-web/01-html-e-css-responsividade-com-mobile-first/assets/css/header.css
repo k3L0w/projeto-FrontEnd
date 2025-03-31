@@ -109,5 +109,12 @@
         display: none;
     }
 
+    .opcoes__botao:checked~.lista-menu { /* combinador CSS acento ~ */
+        display: block;
+        width: auto;
+    }
 
+    .opcoes__botao {
+        display: none;
+    }
 }
