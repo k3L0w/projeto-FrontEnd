@@ -65,7 +65,11 @@
 }
 
 .container__titulo {
-    display: none;
+    display: none;  /* nao exibe o elemento no mobile */
+}
+
+.opcoes {
+    display: none;  /* nao exibe o elemento no mobile */
 }
 
 @media screen and (min-width: 1024px) {
@@ -82,4 +86,28 @@
     .container__titulo--negrito {
         font-weight: 700;
     }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--preto-black);
+    }
+
+    .container__imagem-transparent {
+        display: none;
+    }
+
+    .cabecalho__menu-hanburguer {
+        display: none;
+    }
+
+
 }
