@@ -7,6 +7,14 @@
     display: inline-block; /* permite ajuste de largura e altura */
 }
 
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hanburguer {
+    background-image: url("../images/menu-branco.svg");
+}
+
+.container__botao:checked ~.container__rotulo {
+    background-color: var(--azul-degrade);
+}
+
 .cabecalho {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -23,9 +31,11 @@
     align-items: center;
 }
 
+/*
 .container__imagem {
-    /* padding: 1.0em*/
-}
+    padding: 1.0em
+*/
+
 
 .logo__alurabook {
     margin-left: 0.9em;
@@ -121,6 +131,24 @@
     .opcoes__botao {
         display: none;
     }
+
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco)
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
 }
 
 @media screen and (min-width: 1728px) {
@@ -139,6 +167,10 @@
 
     .opcoes {
         margin-right: auto; 
+    }
+
+    .opcoes:hover {
+        background-color: var(--azul-degrade);
     }
 
     .container__texto {
